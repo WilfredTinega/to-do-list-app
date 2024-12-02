@@ -17,7 +17,7 @@ function displayTask(taskText, isCompleted = false) {
     let span4 = document.createElement("span");
 
     spanLeft.className = "span-left";
-    span.classList = "material-symbols-outlined checked";
+    span.classList = "material-symbols-outlined checked span-check";
     span.textContent = "check_circle";
     span2.className = "input-data";
     span2.textContent = taskText;

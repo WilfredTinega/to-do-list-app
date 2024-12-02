@@ -109,7 +109,9 @@ li{
     align-items: center;
     justify-content: space-between;
     color: #fff;
+    position: relative;
 }
+
 li:nth-child(odd){
     background: #00000022;
 }
@@ -126,18 +128,23 @@ li span{
     flex: 1;
     display: flex;
     justify-content: space-between;
+    position: relative;
     
 }
 
 .span-left span{
     padding: 0 1rem 0 0;
 }
+
 .span-left span.checked{
     color: #ff5945;
 }
 
 .input-data{
     flex: 1;
+    overflow-x: scroll;
+    overflow-wrap: break-word;
+    scrollbar-width: none;
 }
 
 .input-data::first-letter{
