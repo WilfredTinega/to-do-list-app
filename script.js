@@ -1,5 +1,6 @@
 const inputBox = document.getElementById("input-box");
 const listContainer = document.getElementById("list-container");
+const getDate = document.getElementById("today");
 
 window.onload = () => {
     const tasks = JSON.parse(localStorage.getItem("tasks")) || [];
@@ -85,3 +86,5 @@ inputBox.addEventListener("keydown", (event) => {
         addTask();
     }
 });
+
+getDate.innerHTML = new Date().getFullYear();
