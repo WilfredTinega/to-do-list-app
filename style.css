@@ -14,7 +14,7 @@ html{
 
 .container{
     background-repeat: no-repeat;
-    height: 90vh;
+    height: 95vh;
     width: 100%;
     background: linear-gradient(90deg, #000, rgba(135, 207, 235, 0.3));
 
@@ -142,7 +142,7 @@ li span{
 
 
 footer{
-    height: 10vh;
+    height: 5vh;
     font-weight: bolder;
     text-transform: capitalize;
     display: flex;
@@ -151,7 +151,7 @@ footer{
     color: #002765;
     gap: 0.5rem;
     padding-left: 1rem;
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
 }
 
